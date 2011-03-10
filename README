@@ -1,0 +1,6 @@
+ubucleaner - Thin your Linux
+
+USAGE
+
+chmod +x ubucleaner.sh
+sudo ./ubucleaner.sh
