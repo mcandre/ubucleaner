@@ -21,16 +21,13 @@ if [ $USER != root ]; then
   exit 0
 fi
 
-echo -e $YELLOW"Cleaning apt cache..."$ENDCOLOR
-apt-get clean
-
 echo -e $YELLOW"Removing old config files..."$ENDCOLOR
 apt-get purge $OLDCONF
 
 echo -e $YELLOW"Removing old kernels..."$ENDCOLOR
 apt-get purge $OLDKERNELS
 
-echo -e $YELLOW"Removing old apt-get files..."$ENDCOLOR
+echo -e $YELLOW"Cleaning apt cache..."$ENDCOLOR
 apt-get autoclean && apt-get clean
 
 echo -e $YELLOW"Emptying trash..."$ENDCOLOR
