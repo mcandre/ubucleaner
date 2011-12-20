@@ -1,6 +1,6 @@
-ubucleaner - Thin your Linux
+# ubucleaner - Thin your Linux
 
-EXAMPLE
+## EXAMPLE
 
 	$ chmod +x ubucleaner.sh
 	$ sudo ./ubucleaner.sh
