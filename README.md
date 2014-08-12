@@ -2,5 +2,4 @@
 
 ## EXAMPLE
 
-	$ chmod +x ubucleaner.sh
-	$ sudo ./ubucleaner.sh
+	$ sudo lib/ubucleaner.sh
