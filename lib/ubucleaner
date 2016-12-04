@@ -16,9 +16,9 @@ RED="\033[0;31m"
 ENDCOLOR="\033[0m"
 
 if [ "$USER" != 'root' ]; then
-  echo -e "${RED}Error: must be root${ENDCOLOR}"
-  echo -e "${YELLOW}Exiting...${ENDCOLOR}"
-  exit 0
+    echo -e "${RED}Error: must be root${ENDCOLOR}"
+    echo -e "${YELLOW}Exiting...${ENDCOLOR}"
+    exit 0
 fi
 
 echo -e "${YELLOW}Removing old config files...${ENDCOLOR}"
