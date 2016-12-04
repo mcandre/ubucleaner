@@ -1,5 +1,8 @@
 # ubucleaner - Thin your Linux
 
-## EXAMPLE
+# EXAMPLE
 
-	$ sudo lib/ubucleaner.sh
+```
+$ sudo lib/ubucleaner.sh
+...
+```
